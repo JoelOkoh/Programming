@@ -3,7 +3,7 @@
 
 👀 I’m interested in scientific computing
 
-🌱 I’m currently learning Numerical Methods
+🌱 I’m currently on Numerical Methods
 
 💞️ I’m looking to collaborate on similar projects.
 
