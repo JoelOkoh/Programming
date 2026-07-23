@@ -1,1 +1,25 @@
+#Newton-Raphson_Method
+import numpy as np
+import matplotlib.pyplot as plt
+def func (x):
+  return x * x * x - x * x + 1
 
+def dfunc (x):
+  return 3 * x * x - 2 * x
+
+def newtonraphson (x):
+  h = func (x) / dfunc (x)
+  while abs(h) >= 0.001:
+    h = func (x) / dfunc (x)
+    x = x - h
+print()
+
+x0 = -20
+newtonraphson (x0)
+
+x_plot = np.linspace(-2, 2, 100)
+y_plot = func(x_plot)
+
+plt.plot (x_plot, y_plot)
+plt.grid()
+plt.show()
