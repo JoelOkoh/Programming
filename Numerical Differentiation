@@ -1,13 +1,13 @@
 #The Forward Difference (Looking Ahead)
-#You calculate the slope using your current point $x$ and the next point $x + h$.
+#You calculate the slope using your current point x and the next point x + h.
 #When to use it: When you are at the very beginning of a dataset and don't have any previous data points to look back at, or in real-time systems where you only know the present and the immediate next step.
 
 #The Backward Difference (Looking Behind)
-#You calculate the slope using your current point $x$ and the previous point $x - h$.
+#You calculate the slope using your current point x and the previous point x - h.
 #When to use it: When you are at the very end of an array, or in real-time tracking (like calculating the current speed of a car using only the GPS data you've already collected).
 
 #The Central Difference (The Best Choice)
-#You ignore the exact point $x$, and calculate the slope between the point just before it ($x - h$) and the point just after it ($x + h$). Because you are spanning across two steps, you divide by $2h$.
+#You ignore the exact point x, and calculate the slope between the point just before it (x - h) and the point just after it (x + h). Because you are spanning across two steps, you divide by $2h$.
 #When to use it: Almost always. Unless you are stuck at the very edge of your data, the Central Difference is significantly more accurate than the other two because it balances out the curve on both sides.
 
 # Assuming you have an array of positions (y) and times (t)
