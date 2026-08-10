@@ -1,1 +1,11 @@
+#Newton-Cotes Formulas (Evenly Spaced Points)
+#These basic methods divide the total area into segments of equal width. The difference between them is the geometric shape used to estimate the area of each segment.
+#~Riemann Sums
+#~Trapezoidal Rule
+#~Simpson's 1/3 Rule
+#~Simpson's 3/8 Rule
 
+#Advanced Methods
+#~Gaussian Quadrature
+#~Monte Carlo Integration
+#~Adaptive Quadrature
